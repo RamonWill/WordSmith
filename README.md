@@ -33,5 +33,5 @@ I'd like to thank the contributors to stack overflow and the python standard lib
 Coming Soon...
 
 # Screenshots
-<img src="Screenshots/main_image.PNG" width="500">
-<img src="Screenshots/main_image.PNG" width="500">
+<img src="Screenshots/rar_image.PNG" width="500">
+<img src="Screenshots/zip_image.PNG" width="500">
