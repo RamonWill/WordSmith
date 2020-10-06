@@ -1,3 +1,5 @@
+<img src="logo.png">
+
 # WordSmith (Password Cracking Tool)
 
 A password cracking tool written in Python's standard GUI package, Tkinter.
