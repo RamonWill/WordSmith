@@ -33,7 +33,7 @@ WordSmith will traverse through the files of a folder and determine whether they
 I'd like to thank the contributors to stack overflow and the python standard library.
 
 # Video Demo
-Coming Soon...
+[<img src="https://img.youtube.com/vi/xuKBKzcOHOU/maxresdefault.jpg" width="75%">](https://www.youtube.com/watch?v=xuKBKzcOHOU)
 
 # Screenshots
 <img src="Screenshots/rar_image.PNG" width="500">
