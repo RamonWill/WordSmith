@@ -4,7 +4,7 @@
 
 A password cracking tool written in Python's standard GUI package, Tkinter.
 
-![](name-of-giphy.gif)
+![](Wordsmith_Gif.gif)
 
 
 # Table of Contents
