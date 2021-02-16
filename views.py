@@ -79,7 +79,7 @@ class MainPage(tk.Frame):
         frame_output = tk.LabelFrame(parent, frame_styles, text="Attack Output")
         frame_output.place(rely=0.15, relx=0.50, height=475, width=500)
 
-        self.text_output = tk.Text(frame_output)
+        self.text_output = tk.Text(frame_output,wrap=tk.NONE)
         self.text_output.place(relheight=1, relwidth=1)
         text_scrolly = tk.Scrollbar(frame_output, orient="vertical", command=self.text_output.yview)
         text_scrollx = tk.Scrollbar(frame_output, orient="horizontal", command=self.text_output.xview)
