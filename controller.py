@@ -19,6 +19,7 @@ class Controller(object):
         attack = DictionaryAttack(
                     self.view, password_file, save_destination, hash_type, attack_targets
                 )
+        attack.daemon = True
         attack.start()
 
 
