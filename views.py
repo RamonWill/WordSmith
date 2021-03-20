@@ -16,7 +16,7 @@ class NavBar(tk.Menu):
         menu_file.add_command(label="Disclaimer", command=parent.OpenDisclaimerPage)
         menu_file.add_separator()
         menu_file.add_command(label="Exit",
-                              command=parent.quit)
+                              command=parent.quit_application)
 
 
 class MainPage(tk.Frame):

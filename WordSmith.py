@@ -1,5 +1,5 @@
 import tkinter as tk
-
+from tkinter import messagebox
 from views import DisclaimerPage, HelpPage, MainPage, NavBar
 
 APP_HEIGHT = 600
@@ -24,12 +24,21 @@ class Application(tk.Tk):
         page = MainPage(parent=main_frame)
         page.place(rely=0, relx=0)
         page.tkraise()
+        self.protocol("WM_DELETE_WINDOW", self.quit_application)
 
     def OpenHelpPage(self):
-        HelpPage()
+        help = HelpPage()
+        help.focus_set()
+        help.grab_set()
 
     def OpenDisclaimerPage(self):
-        DisclaimerPage()
+        disclaimer = DisclaimerPage()
+        disclaimer.focus_set()
+        disclaimer.grab_set()
+
+    def quit_application(self):
+        if messagebox.askyesno("Exit", "Do you want to quit the application?"):
+            self.destroy()
 # parent is the parent frame that the object is tied to i.e. Frame(root)
 # MainPage(main_frame) means MainPage is tied to the main_frame in application)
 
