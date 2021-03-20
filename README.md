@@ -1,3 +1,8 @@
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
 <img src="logo.png">
 
 # WordSmith (Password Cracking Tool)
@@ -39,3 +44,12 @@ I'd like to thank the contributors to stack overflow and the python standard lib
 # Screenshots
 <img src="Screenshots/rar_image.PNG" width="500">
 <img src="Screenshots/zip_image.PNG" width="500">
+
+[forks-shield]: https://img.shields.io/github/forks/RamonWill/WordSmith.svg?style=for-the-badge
+[forks-url]: https://github.com/RamonWill/WordSmith/network/members
+[stars-shield]: https://img.shields.io/github/stars/RamonWill/WordSmith.svg?style=for-the-badge
+[stars-url]: https://github.com/RamonWill/WordSmith/stargazers
+[issues-shield]: https://img.shields.io/github/issues/RamonWill/WordSmith.svg?style=for-the-badge
+[issues-url]: https://github.com/RamonWill/WordSmith/issues
+[license-shield]: https://img.shields.io/github/license/RamonWill/WordSmith.svg?style=for-the-badge
+[license-url]: https://github.com/RamonWill/WordSmith/blob/master/LICENSE.txt
